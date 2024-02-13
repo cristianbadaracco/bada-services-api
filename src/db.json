@@ -1,0 +1,340 @@
+{
+  "periods": [
+    { "id": 1, "dolarValue": 1100, "startDate": "01/01/24" },
+    { "id": 2, "dolarValue": 1500, "startDate": "02/01/24" }
+  ],
+  "services": [
+    { "id": 1, "name": "Luz (EPE)" },
+    { "id": 2, "name": "Agua" },
+    { "id": 3, "name": "Alquiler" },
+    { "id": 4, "name": "Cochera" },
+    { "id": 5, "name": "Expensas" },
+    { "id": 6, "name": "Gym" },
+    { "id": 7, "name": "Claro" },
+    { "id": 8, "name": "Monotributo" },
+    { "id": 9, "name": "Litoral Gas" },
+    { "id": 10, "name": "Pedidos Ya" },
+    { "id": 11, "name": "Netflix" },
+    { "id": 12, "name": "Icloud" },
+    { "id": 13, "name": "Spotify" },
+    { "id": 14, "name": "Google Cloud" },
+    { "id": 15, "name": "Star+ - Disney" },
+    { "id": 16, "name": "Seguro" },
+    { "id": 17, "name": "Obra Social" }
+  ],
+  "payments": [
+    { "id": 1, "name": "Lemon Cash", "type": "debito" },
+    { "id": 2, "name": "Mercado Pago", "type": "debito" },
+    { "id": 3, "name": "Banco Patagonia", "type": "credito" },
+    { "id": 4, "name": "Brubank", "type": "debito" }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "amount": 2500.0,
+      "dueDate": "01/18/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 3,
+      "paymentDate": "01/04/24",
+      "periodId": 1,
+      "serviceID": 1
+    },
+    {
+      "amount": 0.0,
+      "dueDate": "01/01/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 4,
+      "paymentDate": null,
+      "periodId": 1,
+      "serviceID": 2
+    },
+    {
+      "amount": 267000.0,
+      "dueDate": "01/10/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 3,
+      "paymentDate": "01/08/24",
+      "periodId": 1,
+      "serviceID": 3
+    },
+    {
+      "amount": 20000.0,
+      "dueDate": "01/10/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 1,
+      "paymentDate": "01/04/24",
+      "periodId": 1,
+      "serviceID": 4
+    },
+    {
+      "amount": 10159.0,
+      "dueDate": "01/10/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 2,
+      "paymentDate": "01/04/24",
+      "periodId": 1,
+      "serviceID": 5
+    },
+    {
+      "amount": 10000.0,
+      "dueDate": "01/17/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 2,
+      "paymentDate": "01/17/24",
+      "periodId": 1,
+      "serviceID": 6
+    },
+    {
+      "amount": 5200.0,
+      "dueDate": "01/15/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 4,
+      "paymentDate": "01/04/24",
+      "periodId": 1,
+      "serviceID": 7
+    },
+    {
+      "amount": 27000.0,
+      "dueDate": "01/22/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 4,
+      "paymentDate": "01/17/24",
+      "periodId": 1,
+      "serviceID": 8
+    },
+    {
+      "amount": 1053.0,
+      "dueDate": "01/29/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 1,
+      "paymentDate": "01/17/24",
+      "periodId": 1,
+      "serviceID": 9
+    },
+    {
+      "amount": 1700.0,
+      "dueDate": "01/04/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 4,
+      "paymentDate": null,
+      "periodId": 1,
+      "serviceID": 10
+    },
+    {
+      "amount": 6700.0,
+      "dueDate": "01/13/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 2,
+      "paymentDate": null,
+      "periodId": 1,
+      "serviceID": 11
+    },
+    {
+      "amount": 1400.0,
+      "dueDate": "01/15/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 1,
+      "paymentDate": null,
+      "periodId": 1,
+      "serviceID": 12
+    },
+    {
+      "amount": 1200.0,
+      "dueDate": "01/29/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 4,
+      "paymentDate": null,
+      "periodId": 1,
+      "serviceID": 13
+    },
+    {
+      "amount": 2800.0,
+      "dueDate": "01/14/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 1,
+      "paymentDate": null,
+      "periodId": 1,
+      "serviceID": 14
+    },
+    {
+      "amount": 2500.0,
+      "dueDate": "01/20/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 2,
+      "paymentDate": null,
+      "periodId": 1,
+      "serviceID": 15
+    },
+    {
+      "amount": 42813.0,
+      "dueDate": "01/07/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 3,
+      "paymentDate": null,
+      "periodId": 1,
+      "serviceID": 16
+    },
+    {
+      "amount": 84288.0,
+      "dueDate": "01/15/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 4,
+      "paymentDate": null,
+      "periodId": 1,
+      "serviceID": 17
+    },
+    {
+      "amount": 2500.0,
+      "dueDate": "02/18/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 3,
+      "paymentDate": "02/04/24",
+      "periodId": 2,
+      "serviceID": 1
+    },
+    {
+      "amount": 0.0,
+      "dueDate": "02/01/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 4,
+      "paymentDate": null,
+      "periodId": 2,
+      "serviceID": 2
+    },
+    {
+      "amount": 267000.0,
+      "dueDate": "02/10/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 3,
+      "paymentDate": "02/08/24",
+      "periodId": 2,
+      "serviceID": 3
+    },
+    {
+      "amount": 20000.0,
+      "dueDate": "02/10/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 1,
+      "paymentDate": "02/04/24",
+      "periodId": 2,
+      "serviceID": 4
+    },
+    {
+      "amount": 10159.0,
+      "dueDate": "02/10/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 2,
+      "paymentDate": "02/04/24",
+      "periodId": 2,
+      "serviceID": 5
+    },
+    {
+      "amount": 10000.0,
+      "dueDate": "02/17/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 2,
+      "paymentDate": "02/17/24",
+      "periodId": 2,
+      "serviceID": 6
+    },
+    {
+      "amount": 5200.0,
+      "dueDate": "02/15/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 4,
+      "paymentDate": "02/04/24",
+      "periodId": 2,
+      "serviceID": 7
+    },
+    {
+      "amount": 27000.0,
+      "dueDate": "02/22/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 4,
+      "paymentDate": "02/17/24",
+      "periodId": 2,
+      "serviceID": 8
+    },
+    {
+      "amount": 1053.0,
+      "dueDate": "02/29/24",
+      "hasAutomaticPayment": false,
+      "paymentAccountId": 1,
+      "paymentDate": "02/17/24",
+      "periodId": 2,
+      "serviceID": 9
+    },
+    {
+      "amount": 1700.0,
+      "dueDate": "02/04/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 4,
+      "paymentDate": null,
+      "periodId": 2,
+      "serviceID": 10
+    },
+    {
+      "amount": 6700.0,
+      "dueDate": "02/13/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 2,
+      "paymentDate": null,
+      "periodId": 2,
+      "serviceID": 11
+    },
+    {
+      "amount": 1400.0,
+      "dueDate": "02/15/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 1,
+      "paymentDate": null,
+      "periodId": 2,
+      "serviceID": 12
+    },
+    {
+      "amount": 1200.0,
+      "dueDate": "02/29/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 4,
+      "paymentDate": null,
+      "periodId": 2,
+      "serviceID": 13
+    },
+    {
+      "amount": 2800.0,
+      "dueDate": "02/14/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 1,
+      "paymentDate": null,
+      "periodId": 2,
+      "serviceID": 14
+    },
+    {
+      "amount": 2500.0,
+      "dueDate": "02/20/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 2,
+      "paymentDate": null,
+      "periodId": 2,
+      "serviceID": 15
+    },
+    {
+      "amount": 42813.0,
+      "dueDate": "02/07/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 3,
+      "paymentDate": null,
+      "periodId": 2,
+      "serviceID": 16
+    },
+    {
+      "amount": 84288.0,
+      "dueDate": "02/15/24",
+      "hasAutomaticPayment": true,
+      "paymentAccountId": 4,
+      "paymentDate": null,
+      "periodId": 2,
+      "serviceID": 17
+    }
+  ]
+}
